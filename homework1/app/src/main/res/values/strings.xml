@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="value_1">Value 1:</string>
+    <string name="value_2">Value 2:</string>
+    <string name="value_2_hint">Value 2</string>
+    <string name="operator">Operator:</string>
+    <string name="add">+</string>
+    <string name="subtract">−</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+    <string name="value_1_hint">Value 1</string>
+</resources>
