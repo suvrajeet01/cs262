@@ -1,0 +1,14 @@
+Exercise 9.1
+a. There are 3 endpoints which are implemented in PlayerResource.java:
+    /players which supports the GET http method
+    /players/{id} supporting GET, PUT, DELETE http methods
+    /player which supports the POST http method
+b.
+    i. JDBC allows java code to access data in a database
+    ii. 
+        1. SQL queries are the SQL commands that actually access the data. A JDBC statement object stores the SQL statement as a java object that can be reused
+        2. A SQL relation is the table itself in the SQL database. A JDBC result set is a java representation of that table/data. List<Player> is a standard Java list which is returned by the function
+    iii. It allows you to add an entry to the database for which you have incomplete data
+c.
+    i. Player.java makes it a lot easier to manipulate the player in the database using standard object oriented java since it represents a player from the SQL database
+    ii. The player table doesnt have a set of operations you can run on it, the Player class makes it easier to make changes to the player
